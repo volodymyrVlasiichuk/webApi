@@ -1,0 +1,72 @@
+﻿:not(.btn-group) > .btn {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/*.animate-slideY {
+	position: relative;
+}
+
+.animate-slide-container {
+	overflow:hidden;
+}
+
+.animate-slideY.ng-hide-add,
+.animate-slideY.ng-hide-remove {
+	-moz-transition: 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) all;
+	-o-transition: 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) all;
+	-webkit-transition: 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) all;
+	transition: 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) all;
+	display: block !important;
+	top: 0;
+}
+
+.animate-slideY.ng-hide { top: -500px; }*/
+
+.top5 { margin-top: 5px; }
+
+.top10 { margin-top: 10px; }
+
+.top15 { margin-top: 15px; }
+
+.top20 { margin-top: 20px; }
+
+.top25 { margin-top: 25px; }
+
+.top30 { margin-top: 30px; }
+
+
+.fa-circle-o-notch:hover {
+	-webkit-animation: spin 2s infinite linear;
+	-moz-animation: spin 2s infinite linear;
+	-o-animation: spin 2s infinite linear;
+	animation: spin 2s infinite linear;
+}
+
+.fa-cog:hover {
+	-webkit-animation: spin 2s infinite linear;
+	-moz-animation: spin 2s infinite linear;
+	-o-animation: spin 2s infinite linear;
+	animation: spin 2s infinite linear;
+}
+
+.fa-gear:hover {
+	-webkit-animation: spin 2s infinite linear;
+	-moz-animation: spin 2s infinite linear;
+	-o-animation: spin 2s infinite linear;
+	animation: spin 2s infinite linear;
+}
+
+.fa-refresh:hover {
+	-webkit-animation: spin 2s infinite linear;
+	-moz-animation: spin 2s infinite linear;
+	-o-animation: spin 2s infinite linear;
+	animation: spin 2s infinite linear;
+}
+
+.fa-spinner:hover {
+	-webkit-animation: spin 2s infinite linear;
+	-moz-animation: spin 2s infinite linear;
+	-o-animation: spin 2s infinite linear;
+	animation: spin 2s infinite linear;
+}

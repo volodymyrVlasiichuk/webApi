@@ -1,0 +1,22 @@
+﻿<div class="modal-header">
+	<button type="button" class="close" ng-click="close()">×</button>
+	<h4 class="modal-title">Sign In</h4>
+</div>
+<div class="modal-body">
+	<form ng-submit="signin()">
+		<div class="form-group">
+			<input class="form-control" type="text" ng-model="SignInModel.UserName" placeholder="Name">
+		</div>
+		<div class="form-group">
+			<input class="form-control" type="password" ng-model="SignInModel.Password" placeholder="Password">
+		</div>
+		<div class="checkbox">
+			<label>
+				Remember me&nbsp;<input type="checkbox" ng-model="SignInModel.IsPersistent">
+			</label>
+		</div>
+		<input type="submit" value="Submit" class="btn btn-success pull-right" />
+        <br />
+        <br />
+	</form>
+</div>

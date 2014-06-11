@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIBlog.Domain", "WebAPIBlog.Domain\WebAPIBlog.Domain.csproj", "{CF14BC95-09E0-49C6-AA80-2A4D1AC353CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIBlog.Model", "WebAPIBlog.Model\WebAPIBlog.Model.csproj", "{A717C68C-2054-48AA-97E1-1319CD6DAE57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIBlog", "WebAPIBlog\WebAPIBlog.csproj", "{2F1A3B4E-80CA-433D-A54D-3CD5B76AE516}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A717C68C-2054-48AA-97E1-1319CD6DAE57} = {A717C68C-2054-48AA-97E1-1319CD6DAE57}
+		{CF14BC95-09E0-49C6-AA80-2A4D1AC353CD} = {CF14BC95-09E0-49C6-AA80-2A4D1AC353CD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF14BC95-09E0-49C6-AA80-2A4D1AC353CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF14BC95-09E0-49C6-AA80-2A4D1AC353CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF14BC95-09E0-49C6-AA80-2A4D1AC353CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF14BC95-09E0-49C6-AA80-2A4D1AC353CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A717C68C-2054-48AA-97E1-1319CD6DAE57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A717C68C-2054-48AA-97E1-1319CD6DAE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A717C68C-2054-48AA-97E1-1319CD6DAE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A717C68C-2054-48AA-97E1-1319CD6DAE57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F1A3B4E-80CA-433D-A54D-3CD5B76AE516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F1A3B4E-80CA-433D-A54D-3CD5B76AE516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F1A3B4E-80CA-433D-A54D-3CD5B76AE516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F1A3B4E-80CA-433D-A54D-3CD5B76AE516}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
