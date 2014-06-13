@@ -1,3 +1,7 @@
 dsklfjdslfk
 
+<<<<<<< HEAD
 5465
+=======
+лосрпо
+>>>>>>> 6c9b96bbfaf6f50249a7d42916f428601a07abce
